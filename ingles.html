@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="LFE curso de Idiomas em Inglês e Francês">
+    <meta name="description" content="Escola de idomas para Crianças, Adolescentes e Adutos, abrangindo aula, video e presencial.">
+    <link rel="shortcut icon" href="logoIco.ico" type="image/x-icon">
+    <!-- Link de importação do CSS de estilização da pagina -->
+    <link rel="stylesheet" href="estilo.css">
+    <title>LFE Idiomas curso</title>
+</head>
+
+<body>
+    <!-- Cabeçario com logo e navebar -->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1><img src="logomarca.png" alt="imagem do logo" title="LFE Languages logo"></h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#sobrenos" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item"><a href="#cursos" class="nav-link"> CURSO</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link"> CONTACTS</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="index.html" target="_blank" ><img class="iconslinks" src="bandeira.png" alt="imgem do icone bandeira do brasil e estado unido " title="Traduzir para Português."></a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuAparece(mobile-menu)"><img class="icon" src="menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#sobrenos" class="nav-link">ABOUT</a></li>
+                <li class="nav-item"><a href="#cursos" class="nav-link">CURSO</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">CONTACTS</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="index.html" target="_blank" ><img class="iconslinks" src="bandeira.png" alt="Click para traduzir em Português."></a></button>
+            </div>
+        </div>
+    </header>
+    <!-- Conteudo Primeira seção homepage -->
+    <section class="primeira-secao" id="home">
+        <div class="conteudo-principal">
+            <h1>COME AND BE A PART OF THE GLOBALIZED WORLD!!!</h1>
+            <h2>LFE Language Course</h2>
+            <h3>ENGLISH AND FRENCH</h3>
+            <div class="btn">
+                <button class="btn-button"> <a href="#cursos">Book your lesson</a></button>
+                <button class="btn-button"><a href="#contato">Register</a></button>
+            </div>  
+        </div>
+    </section>
+    <!-- Conteudo Sobre os valores da empresa -->
+    <section class="sobre-nos" id="sobrenos">
+
+        <div class="conteudosobre">
+            <h2>Regarding LFE:</h2>
+            <p>Lenguage French and English is a language school dedicated to teaching English and French to all ages. Our commitment is to provide an engaging, efficient, and enjoyable learning experience that adapts to the needs and pace of each student. With a team of qualified teachers and modern methodologies, we combine theory and practice to develop the four essential skills: speaking, listening, reading, and writing. Our classes are dynamic and interactive, promoting real communication from the very first moments. At Lenguage French and English, we believe that learning a new language opens doors to the world—whether for travel, study, work, or connecting with new cultures. Here, each student is encouraged to reach their full potential and confidently conquer new horizons.
+            </p>
+        </div>
+    </section>
+    <!-- Conteudo Cursos e produtos da empresa -->
+    <section class="curso-aulas" id="cursos">
+        <h1>Classes and Courses</h1>
+        <div class="idiomas">
+            <div class="inf-idiomas">
+                <h2>ENGLISH</h2>
+                <h3>Class Hours:</h3>
+                <h4> Morning  <span>R$ 45,00</span></h4>
+                <h4> Afternoon  <span>R$ 55,00</span></h4>
+                <h4> Night  <span>R$ 40,00</span> </h4>
+                <button class="btn-inscreva"><a href="#contato">Enrollment</a></button>
+            </div>
+
+            <div class="inf-idiomas">
+                <h2>FRENCH</h2>
+                <h3>Class Hours:</h3>
+                <h4> Morning  <span>R$ 45,00</span></h4>
+                <h4> Afternoon  <span>R$ 55,00</span></h4>
+                <h4> Night  <span>R$ 40,00</span> </h4>
+                <button class="btn-inscreva"><a href="#contato">Enrollment</a></button>
+            </div>
+        </div>  
+    </section>
+    <!-- Conteudo Contato e Mapa de localização da empresa -->
+    <section class="contato" id="#">
+        <div class="titulo-contato">
+            <h1>Contact</h1>
+        </div>
+        <div class="itens-contato">
+            <div class="formulario">
+                <form method="post" action="mailto:sergio.rodrigues13@etec.sp.gov.br" enctype="text/plain">
+                    <fieldset>
+                        <legend>Data </legend>
+                        <div class="labinput">
+                            <label for="txtnome">FULL NAME:</label>
+                            <input type="text" name="txtnome" id="txtnome" placeholder="Please provide your full name." maxlength=30 autofocus required/>
+                        </div>  
+                        <div class="labinput">
+                            <label for="txtende">ADDRESS:</label>
+                            <input type="text" name="txtende" id="txtende" placeholder="Please provide your address." maxlength=40 required/>
+                        </div>
+                        <div class="labinput">
+                            <label for="txtbair">NEIGHBORHOOD:</label>
+                            <input class="txtbair" type="text" name="txtbair" id="txtbair" placeholder="Please specify your neighborhood." maxlength=30 required/>&nbsp;&nbsp;
+
+                        </div>
+                        <div class="labinput">
+                            <label for="txtcida">CITY:</label>
+                            <input class="txtcida" type="text" name="txtcida" id="txtcida" placeholder="Please specify your city." required/>&nbsp;
+                            <label for="txtuf">UF:</label>
+                            <select name="txtuf" id="txtuf" class="txtuf">
+                                <option>AC</option>
+                                <option>AL</option>
+                                <option>AM</option>
+                                <option>AP</option>
+                                <option>BA</option>
+                                <option>CE</option>
+                                <option>DF</option>
+                                <option>ES</option>
+                                <option>GO</option>
+                                <option>MA</option>
+                                <option>MG</option>
+                                <option>MS</option>
+                                <option>MT</option>
+                                <option>PA</option>
+                                <option>PB</option>
+                                <option>PE</option>
+                                <option>PI</option>
+                                <option>PR</option>
+                                <option>RJ</option>
+                                <option>RN</option>
+                                <option>RO</option>
+                                <option>RS</option>
+                                <option>RR</option>
+                                <option>SC</option>
+                                <option>SE</option>
+                                <option selected>SP</option>
+                                <option>TO</option>
+                            </select>
+                        </div>
+                        <div class="labinput">
+                            <label for="txtemai">E-Mail:</label>
+                            <input type="email" name="txtemai" id="txtemai" placeholder="Enter your email address." maxlength=40 required/>
+                        </div>
+                        <div class="genero labinput">
+                            <label for="txtsexo">SEX:</label>
+                            <input type="radio" name="txtsexo" id="txtsexof" value="f" />FEMEMINO 
+                            <input type="radio" name="txtsexo" id="txtsexom" value="m"/>MASCULINE
+                            <input type="radio" name="txtsexo" id="txtsexoi" value="i" checked/>INTERSEXO
+                        </div>
+                        <div class="aula labinput">
+                            <label for="txtaula">CLASSROOM:</label>
+                            <input type="radio" name="txtaula" id="txtaulam" value="m" checked/>MORNING 
+                            <input type="radio" name="txtaula" id="txtault" value="t"/>AFTERNOON 
+                            <input type="radio" name="txtaula" id="txtauln" value="n"/>NIGHT
+                        </div>
+
+                        <div class="cursos labinput">
+                            <label for="txtcur" class="titcur">LANGUAGE COURSES:</label>
+                            <input type="checkbox" name="txtadm" id="txtadm"/>ENGLISH 
+                            <input type="checkbox" name="txtdes" id="txtdes"/>FRANCES
+
+                        </div>
+
+
+                        <div class="coment labinput">
+                            <label for="txtsugestao">CHOOSE MESSAGE TYPE:</label>
+                            <select name="txtsugestao " id="txtsugestao" class="txtsugestao">
+                                <option value="C">Course</option>
+                                <option value="O">Burget</option>
+                                <option value="S">Suggestions</option>
+                                <option value="O">Others</option>
+                            </select>   
+                            <br><br>
+                            <label for="txtcom">Please provide a brief summary of what you would like: </label><br>
+                            <textarea class="txtcom" name="txtcom" id="txtcom" cols="1" rows="5" maxlength="500">
+                            </textarea>
+                        </div><br><br>
+                        <div class="btn-form " id="contato">
+                            <input type="submit" value="To send" class="enviar"/>
+                            <input type="reset" value="Clear" class="enviar"/>
+                        </div>  
+
+                    </fieldset>
+                </form>
+            </div><br>
+            <div class="mapa">
+                <h3>See our location</h3>
+                <div class="item-mapa">
+                    <p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3247724394105!2d-46.72778649999999!3d-23.5208186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d371ec31%3A0x671c9325c275132e!2sETEC%20Prof%C2%B0%20Basilides%20de%20Godoy!5e0!3m2!1spt-BR!2sbr!4v1760563189790!5m2!1spt-BR!2sbr" width="90%" height="350" style="border-radius:5px;padding: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </p>
+                </div>
+
+                <div class="inicio">
+
+                    <a href="#home" ><img class="iconslinks" src="seta-red-cima-100.png" alt="seta inicio" title="Return to Top of Page">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Conteudo Rodape e Midia Sociais e direito autoraes -->
+    <footer>
+        <div class="rodape">
+            <p>Copyright © 2025 Learn French and English. All rights reserved.<br>Phone: (+55 11) 9999-9999<br><a href="http://validator.w3.org/check?uri=http%3A%2F%2Fsismico.meximas.com%2Findex.html" target="_blank"><img src="validator.png" alt="validator.w3.org" title="validator.w3.org"></a></p>
+        </div>
+        <div class="redesocial">
+            <ul>
+                <li><a href="https://github.com/dashboard" target="_blank"><img class="iconslinks" src="icons8-github-logo-94.png" alt="imgem do icone github"></a></li>
+                <li><a href="https://www.instagram.com/lfe_idioma/" target="_blank" ><img class="iconslinks" src="icons8-instagram-48.png" alt="imgem do icone instragram"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Tag importação do JavaScript do menu hamburg -->
+    <script src="script.js"></script>
+</body>
+</html>
