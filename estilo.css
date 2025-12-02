@@ -341,11 +341,11 @@ form {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 40%);
 }
-fieldset {
+/* fieldset {
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 5px;
-}
+} */
 legend {
     font-weight: bold;
     color: var(--cor-primaria);
@@ -519,4 +519,5 @@ footer {
     .btn-button {
         padding: 10px 20px;
     }
+
 }
