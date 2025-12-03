@@ -358,16 +358,16 @@ legend {
     align-items: center;
 }
 .labinput label {
-    /* font-weight: bold; */
+    font-weight: bold;
     /* Largura fixa para labels em telas maiores */
-    /* width: 150px;  */
-	display: block;
+    width: 150px; 
+	/* display: block;
     flex-direction: column;
     flex-wrap: wrap;
     font-weight: bold;
     width: 306px;
     padding-right: 40px;
-    margin-right: 20px;
+    margin-right: 20px; */
 }
 .labinput input[type="text"],
 .labinput input[type="email"],
@@ -526,7 +526,7 @@ footer {
     .btn-button {
         padding: 10px 20px;
     }
-	.labinput label {
+	/* .labinput label {
     display: block;
     flex-direction: column;
     flex-wrap: wrap;
@@ -534,7 +534,8 @@ footer {
     width: 306px;
     padding-right: 42px;
     margin-right: -142px;
-}
+} */
 
 }
+
 
