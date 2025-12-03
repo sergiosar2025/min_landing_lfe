@@ -146,7 +146,7 @@ header {
     /*display: none;*/
 }
 
-/* -- Seção Principal -- *
+/* -- Seção Principal (Hero Section) -- */
 .primeira-secao {
     /* Substitua 'fundo.jpg' pela sua imagem */
     background: url('tl-fundo.png') no-repeat center center/cover; 
@@ -357,17 +357,11 @@ legend {
     flex-wrap: wrap;
     align-items: center;
 }
+/* Largura fixa para labels em telas maiores */
 .labinput label {
     font-weight: bold;
-    /* Largura fixa para labels em telas maiores */
     width: 150px; 
-	/* display: block;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-weight: bold;
-    width: 306px;
-    padding-right: 40px;
-    margin-right: 20px; */
+
 }
 .labinput input[type="text"],
 .labinput input[type="email"],
@@ -495,10 +489,12 @@ footer {
         width: 100%;
     }
 
+
     footer {
         flex-direction: column;
         gap: 15px;
     }
+
 }
 
 @media (max-width: 600px) {
@@ -526,16 +522,7 @@ footer {
     .btn-button {
         padding: 10px 20px;
     }
-	/* .labinput label {
-    display: block;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-weight: bold;
-    width: 306px;
-    padding-right: 42px;
-    margin-right: -142px;
-} */
 
 }
 
-
+}
